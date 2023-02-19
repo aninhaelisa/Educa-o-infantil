@@ -1,0 +1,48 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh; 
+    position: fixed;
+
+    background-color: rgb(0, 71, 104);
+    display:flex;
+    align-items: flex-start;
+    order:0;
+
+    cursor:url(http://i225.photobucket.com/albums/dd43/erickson_29/basic.gif) ,auto;
+}
+
+    .caixa a img{
+
+    margin-left: 20px;
+    margin-top: 110px;
+    width: 150px;
+    height: 150px;
+    }
+
+
+@media (min-width:1200px) {
+
+    .caixa a img{
+    margin-left: 50px;
+    margin-top: 110px;
+    width: 250px;
+    height: 250px;
+
+
+    transition: 1s;
+}
+
+
+    .caixa a img:hover{
+        width: 300px;
+        height: 300px;
+        filter: invert(75%);
+        filter: brightness(.5);
+    }
+    
+}

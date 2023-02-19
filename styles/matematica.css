@@ -1,0 +1,90 @@
+body{
+    background-color:lightblue;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    color: #000518;
+
+
+}
+
+input[type=number] {
+    border-radius: 5px; 
+    background: #8dbbff;
+    border: 1px solid #758aff;
+    width: 150px;
+    height: 50px;
+    color: #000518;
+
+    font-size: 30px;
+
+}
+
+.caixa{
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.bt {
+    border:1px solid #859cff;
+    border-radius:10px;
+
+    transition: 1s;
+
+    display:inline-block;
+
+    cursor:pointer;
+    color: #000518;
+
+    font-family:Verdana;
+    font-weight:bold;
+    font-size:20px;
+    padding:6px 10px;
+    text-decoration:none;
+
+    background-color: #8dbbff;
+    }
+
+    .bt:hover{
+        border-radius: 20px;
+    }
+
+     .imagem{
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+
+        transition: 1s;
+     }
+
+     .imagem:hover{
+        width: 50px;
+        height: 50px;
+     }
+
+
+     video {  
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+      }
+
+      @media (min-width:1200px) {
+        .caixa{
+            margin-left: 30%;
+        }
+
+        .bt{
+            margin-left: 50px;
+        }
+
+        p{
+            margin-left: 35%;
+            margin-top:  -80px;
+        }
+      }

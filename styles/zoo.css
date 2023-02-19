@@ -1,0 +1,84 @@
+body{
+    background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p3/7067499-nascer-verao-na-floresta-fundo-gratis-vetor.jpg");
+    background-repeat: no-repeat;
+}
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh; 
+
+    display:flex;
+    align-items: flex-start;
+    order:0;
+}
+
+    .container img{
+
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 130px;
+    height: 130px;
+    }
+
+    .imagem{
+        width: 80px;
+        height: 80px;
+
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+
+@media (min-width:1200px) {
+
+    .imagem{
+        width: 100px;
+        height: 100px;
+
+        margin-left: 10px;
+        margin-top: 10px;
+
+        transition: 1s;
+    }
+
+    .imagem:hover{
+        width: 130px;
+        height: 130px;
+    }
+
+    .container img{
+    margin-left: 50px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    width: 250px;
+    height: 250px;
+
+    transition: 1s;
+}
+
+    .container img:hover{
+        width: 300px;
+        height: 300px;
+    }
+
+    body::-webkit-scrollbar {
+        width: 12px;              
+      }
+      
+      body::-webkit-scrollbar-track {
+        background: rgb(159, 189, 255);       
+
+      }
+      
+      body::-webkit-scrollbar-thumb {
+        background-color: brown;  
+        border-radius: 20px;      
+        border: 3px solid rgb(165, 207, 255); 
+      }
+}
+
